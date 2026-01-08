@@ -1,0 +1,15 @@
+export const initialFormData = {
+    name: "",
+    role: "",
+    email: "",
+    location: "",
+    skills: "",
+    projects: [{ title: "", description: "", technologies: "", link: "" }],
+    education: [{ institution: "", degree: "", year: "" }],
+    experience: [{ company: "", role: "", duration: "", description: "" }],
+    github: "",
+    linkedin: "",
+    twitter: "",
+    website: "",
+    theme: "rainbow",
+};
